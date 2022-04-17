@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "name": "Nutrition Strategies",
+        "price": 200,
+        "description": "Following these nutritional strategies can help you reduce or even eliminate some risk factors, such as reducing total and LDL-cholesterol; lowering blood pressure, blood sugars and triglycerides; and reducing body weight",
+        "img": "https://images.livemint.com/rf/Image-621x414/LiveMint/Period2/2017/10/31/Photos/Processed/fruits-kFLF--621x414@LiveMint.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Workout Routines",
+        "price": 310,
+        "description": "Whether you’re looking to transform your body or just kick your training up a notch, it’s important to add training volume (in the form of reps, sets, and weight) to stimulate new muscle growth as you progress.",
+        "img": "https://thumbs.dreamstime.com/b/workout-fitness-home-happy-muscular-guy-doing-plank-mat-floor-morning-living-room-interior-morning-workout-fitness-194384111.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Support & Motivation",
+        "price": 100,
+        "description": "Be courageous. Challenge orthodoxy. Stand up for what you believe in. When you are in your rocking chair talking to your grandchildren many years from now, be sure you have a good story to tell",
+        "img": "https://us.123rf.com/450wm/rawpixel/rawpixel1707/rawpixel170768491/83008791-creative-group-ideas-discussion-meeting.jpg?ver=6"
+    }
+]
