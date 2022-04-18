@@ -20,10 +20,30 @@ const Blogs = () => {
                 <p>Firebase is a less technical and time-saving alternative to writing full-fledged backend code for dynamic apps.</p>
                 <p>You might also want to consider leveraging this tool if you eventually wish to host and manage your app in the cloud.</p>
                 <p>Firebase removes the need to worry about the technicalities of cloud server configuration.</p>
+                <p>other options:
+                    1.Password-based authentication <br />
+                    2.Two-factor/multifactor authentication <br />
+                    3.Biometric authentication
+                    4.Single sign-on and so on
+                </p>
 
             </div>
             <div className='blog-style'>
                 <h3>What other services does firebase provide other than authentication?</h3>
+                <ul>
+                    <li>
+                        Cloud Firestore
+                    </li>
+                    <li>Cloud Functions</li>
+                    <li>  Authentication</li>
+                    <li> Hosting</li>
+                    <li> Cloud Storage</li>
+                    <li>Google Analytics</li>
+                    <li>Predictions</li>
+                    <li>Cloud Messaging </li>
+                    <li> Dynamic Links</li>
+                    <li>  Remote Config</li>
+                </ul>
             </div>
 
         </div>
