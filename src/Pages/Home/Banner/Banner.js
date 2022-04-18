@@ -20,10 +20,12 @@ const Banner = () => {
                         src="https://bia.ca/wp-content/uploads/2020/12/Happy-man.jpg"
                         alt="First slide"
                     />
-                    <Carousel.Caption>
+                    <Carousel.Caption >
+
                         <h3>Inspiring you to live a healthier lifestyle</h3>
                         <h1> Hi! I am Smith</h1>
                         <h5>Your health Advisor .</h5>
+
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>

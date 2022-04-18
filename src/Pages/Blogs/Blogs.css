@@ -1,0 +1,13 @@
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    /* align-items: center;
+    justify-content: center; */
+}
+
+.blog-style {
+    border: 1px solid lightgreen;
+    margin: 40px 20px;
+    padding: 5px;
+}

@@ -1,6 +1,6 @@
 import { signOut } from 'firebase/auth';
 import React from 'react';
-import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
+import { Container, Nav, Navbar } from 'react-bootstrap';
 import { useAuthState } from 'react-firebase-hooks/auth';
 import { Link } from 'react-router-dom';
 import auth from '../../firebase.init';
@@ -11,7 +11,7 @@ const Header = () => {
         signOut(auth)
     }
     return (
-        <Navbar collapseOnSelect expand="lg" sticky='top' bg="success" variant="dark">
+        <Navbar collapseOnSelect expand="lg" sticky='top' bg="success" variant="dark" >
             <Container>
                 <Navbar.Brand as={Link} to="/">
                     <img height={30} src="https://e7.pngegg.com/pngimages/628/376/png-clipart-health-computer-icons-physical-therapy-lie%C4%8Debna-rehabilitacia-green-mental-health-care-thumbnail.png" alt="" />
@@ -20,7 +20,7 @@ const Header = () => {
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="me-auto">
                         <Nav.Link href="home#services">Services</Nav.Link>
-                        <Nav.Link href="#blogs">Blogs</Nav.Link>
+                        <Nav.Link as={Link} to="/blogs">Blogs</Nav.Link>
 
                     </Nav>
                     <Nav>
